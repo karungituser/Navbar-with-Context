@@ -1,0 +1,36 @@
+.home-app-container {
+  min-height: 100vh;
+}
+
+.home-bg-dark {
+  background-color: #000000;
+}
+.home-bg-light {
+  background-color: #ffffff;
+}
+
+.home-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+.home-dark {
+  color: #ffffff;
+}
+.home-light {
+  color: #1e293b;
+}
+.home-icon {
+  width: 120px;
+}
+.home-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 90px;
+}
+@media screen and (min-width: 768px) {
+  .home-heading {
+    font-size: 40px;
+  }
+}
